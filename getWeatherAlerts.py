@@ -1,8 +1,8 @@
 import requests
 
 # --- USER: Set your county and state abbreviation here ---
-county_name = "Brewster"
-state_abbr = "TX"
+county_name = "Brewster" #Enter your County here
+state_abbr = "TX"        #Enter you Abbreviated state here
 # --------------------------------------------------------
 
 def get_alerts_by_area_desc(county_name, state_abbr):
